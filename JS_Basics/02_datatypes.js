@@ -1,4 +1,4 @@
-"use strict"
+"use strict"  //used to force the user to use latest JS standards and syntaxes
 var x = 123
 console.log(x)
 
@@ -21,6 +21,11 @@ console.log(x)
 // undefined => is a type in java script which ever variable is not defined then it's of type undefined
 // symbol => unique
 
+
+let y = 1234
+console.log("Number type of Y " + typeof y);
+y = "Hello"
+console.log("String type of Y " + typeof y); //  type in java script can be easily changed an flexible and dependent on the value that the variable holds in the memory
 
 console.log(typeof "sai"); // type of keyword is used  to get the type of mentioned variable 
 console.log(typeof 12);
